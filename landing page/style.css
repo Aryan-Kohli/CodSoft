@@ -1,90 +1,158 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap');
+
 /* paragraph font */
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Inter', sans-serif;
     background-color: black;
 }
-h1{
-}
+
+h1 {}
 
 
 /* Utility classes*/
-#completediv{
-    display:none;
+#completediv {
+    display: none;
 }
-#name{
-    color:rgb(41, 8, 8);
+
+#name {
+    color: rgb(41, 8, 8);
     text-decoration: underline;
 }
-#bottoml{
+
+#bottoml {
     /* color: rgb(0, 0, 0); */
     /* font-family: 'Inter', sans-serif; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(255, 255, 255);
     /* font-weight: 600; */
     background-color: rgb(19, 19, 19);
-    border:5px rgb(53, 37, 37) solid;
+    border: 5px rgb(53, 37, 37) solid;
     /* background-color: rgb(95, 95, 202); */
 }
-.carousel-item{
+
+.carousel-item {
     max-height: 500px;
     max-width: 1700px;
 }
-#aboutushead{
+
+#aboutushead {
     color: white;
     font-family: 'Playfair Display', serif;
     font-size: 80px;
     text-decoration: underline;
 }
-#aboutuspara{
+
+#aboutuspara {
     color: white;
     font-size: 25px;
     font-family: 'Lora', serif;
 }
-#sloganhead{
+
+#sloganhead {
     color: white;
     font-family: 'Playfair Display', serif;
-    font-size:46px;
+    font-size: 46px;
 }
-#sloganwriter{
+
+#sloganwriter {
     color: white;
     font-family: 'Lora', serif;
-    font-size:36px;
+    font-size: 36px;
 }
-.container{
+
+.container {
     max-width: 1400px;
 }
-#whychooseus{
+
+#whychooseus {
     color: white;
     font-family: 'Playfair Display', serif;
     font-size: 80px;
     text-decoration: underline;
     margin-top: 50px;
 }
-.herolines{
+
+.herolines {
     color: white;
     font-family: 'Lora', serif;
     font-size: 25px;
 }
-.footer{
+
+.footer {
     background-color: bisque;
     height: 25px;
 }
-#qid{
-    color:white;
+
+#qid {
+    color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 100px;
 }
-.mybtn{
-    width:400px;
-    height:250px;
+
+.mybtn {
+    width: 400px;
+    height: 250px;
     font-size: 150px;
 
 }
 
+@media screen and (max-width:440px) {
+    #qid {
+        font-size: 40px;
+    }
+
+    .mybtn {
+        width: 200px;
+        height: 100px;
+        font-size: 50px;
+    }
+
+    #aboutushead {
+        font-size: 40px;
+    }
+
+    #aboutuspara {
+        font-size: 15px;
+    }
+
+    #sloganhead {
+        font-size: 25px;
+    }
+
+    #sloganwriter {
+        font-size: 20px;
+    }
+
+    #whychooseus {
+        font-size: 40px;
+    }
+
+    .herolines {
+        font-size: 15px;
+    }
+
+    .imghero {
+        width: 300px;
+        height: 300px;
+    }
+
+    .ekimg {
+        width: 305px;
+    }
+
+    .heroimg {
+        width: 200px;
+        /* width:100%; */
+    }
+
+    .herolines {
+        width: 100%;
+    }
+}
